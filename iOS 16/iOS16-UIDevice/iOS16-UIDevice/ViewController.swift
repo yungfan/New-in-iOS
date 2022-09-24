@@ -21,4 +21,10 @@ class ViewController: UIViewController {
         // 旋转屏幕
         windowScene?.requestGeometryUpdate(.iOS(interfaceOrientations: .landscapeLeft))
     }
+
+    // MARK: 屏幕旋转通知在iOS16中无法触发，但会触发下列方法
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        // 处理旋转时的逻辑
+        print(#function)
+    }
 }
