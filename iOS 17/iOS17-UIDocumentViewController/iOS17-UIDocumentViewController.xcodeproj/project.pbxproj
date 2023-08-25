@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5F29922A98A61C0016244F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29912A98A61C0016244F /* AppDelegate.swift */; };
+		3C5F29942A98A61C0016244F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29932A98A61C0016244F /* SceneDelegate.swift */; };
+		3C5F29962A98A61C0016244F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29952A98A61C0016244F /* ViewController.swift */; };
+		3C5F29992A98A61C0016244F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F29972A98A61C0016244F /* Main.storyboard */; };
+		3C5F299B2A98A61E0016244F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F299A2A98A61E0016244F /* Assets.xcassets */; };
+		3C5F299E2A98A61E0016244F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F299C2A98A61E0016244F /* LaunchScreen.storyboard */; };
+		3C5F29A92A98A61E0016244F /* iOS17_UIDocumentViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29A82A98A61E0016244F /* iOS17_UIDocumentViewControllerTests.swift */; };
+		3C5F29B32A98A61E0016244F /* iOS17_UIDocumentViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29B22A98A61E0016244F /* iOS17_UIDocumentViewControllerUITests.swift */; };
+		3C5F29B52A98A61E0016244F /* iOS17_UIDocumentViewControllerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29B42A98A61E0016244F /* iOS17_UIDocumentViewControllerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5F29A52A98A61E0016244F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5F29862A98A61C0016244F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5F298D2A98A61C0016244F;
+			remoteInfo = "iOS17-UIDocumentViewController";
+		};
+		3C5F29AF2A98A61E0016244F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5F29862A98A61C0016244F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5F298D2A98A61C0016244F;
+			remoteInfo = "iOS17-UIDocumentViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5F298E2A98A61C0016244F /* iOS17-UIDocumentViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS17-UIDocumentViewController.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F29912A98A61C0016244F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C5F29932A98A61C0016244F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C5F29952A98A61C0016244F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C5F29982A98A61C0016244F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5F299A2A98A61E0016244F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C5F299D2A98A61E0016244F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C5F299F2A98A61E0016244F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5F29A42A98A61E0016244F /* iOS17-UIDocumentViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS17-UIDocumentViewControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F29A82A98A61E0016244F /* iOS17_UIDocumentViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_UIDocumentViewControllerTests.swift; sourceTree = "<group>"; };
+		3C5F29AE2A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS17-UIDocumentViewControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F29B22A98A61E0016244F /* iOS17_UIDocumentViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_UIDocumentViewControllerUITests.swift; sourceTree = "<group>"; };
+		3C5F29B42A98A61E0016244F /* iOS17_UIDocumentViewControllerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_UIDocumentViewControllerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5F298B2A98A61C0016244F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29A12A98A61E0016244F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29AB2A98A61E0016244F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5F29852A98A61C0016244F = {
+			isa = PBXGroup;
+			children = (
+				3C5F29902A98A61C0016244F /* iOS17-UIDocumentViewController */,
+				3C5F29A72A98A61E0016244F /* iOS17-UIDocumentViewControllerTests */,
+				3C5F29B12A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests */,
+				3C5F298F2A98A61C0016244F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5F298F2A98A61C0016244F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F298E2A98A61C0016244F /* iOS17-UIDocumentViewController.app */,
+				3C5F29A42A98A61E0016244F /* iOS17-UIDocumentViewControllerTests.xctest */,
+				3C5F29AE2A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5F29902A98A61C0016244F /* iOS17-UIDocumentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29912A98A61C0016244F /* AppDelegate.swift */,
+				3C5F29932A98A61C0016244F /* SceneDelegate.swift */,
+				3C5F29952A98A61C0016244F /* ViewController.swift */,
+				3C5F29972A98A61C0016244F /* Main.storyboard */,
+				3C5F299A2A98A61E0016244F /* Assets.xcassets */,
+				3C5F299C2A98A61E0016244F /* LaunchScreen.storyboard */,
+				3C5F299F2A98A61E0016244F /* Info.plist */,
+			);
+			path = "iOS17-UIDocumentViewController";
+			sourceTree = "<group>";
+		};
+		3C5F29A72A98A61E0016244F /* iOS17-UIDocumentViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29A82A98A61E0016244F /* iOS17_UIDocumentViewControllerTests.swift */,
+			);
+			path = "iOS17-UIDocumentViewControllerTests";
+			sourceTree = "<group>";
+		};
+		3C5F29B12A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29B22A98A61E0016244F /* iOS17_UIDocumentViewControllerUITests.swift */,
+				3C5F29B42A98A61E0016244F /* iOS17_UIDocumentViewControllerUITestsLaunchTests.swift */,
+			);
+			path = "iOS17-UIDocumentViewControllerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5F298D2A98A61C0016244F /* iOS17-UIDocumentViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5F29B82A98A61E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIDocumentViewController" */;
+			buildPhases = (
+				3C5F298A2A98A61C0016244F /* Sources */,
+				3C5F298B2A98A61C0016244F /* Frameworks */,
+				3C5F298C2A98A61C0016244F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS17-UIDocumentViewController";
+			productName = "iOS17-UIDocumentViewController";
+			productReference = 3C5F298E2A98A61C0016244F /* iOS17-UIDocumentViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5F29A32A98A61E0016244F /* iOS17-UIDocumentViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5F29BB2A98A61E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIDocumentViewControllerTests" */;
+			buildPhases = (
+				3C5F29A02A98A61E0016244F /* Sources */,
+				3C5F29A12A98A61E0016244F /* Frameworks */,
+				3C5F29A22A98A61E0016244F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5F29A62A98A61E0016244F /* PBXTargetDependency */,
+			);
+			name = "iOS17-UIDocumentViewControllerTests";
+			productName = "iOS17-UIDocumentViewControllerTests";
+			productReference = 3C5F29A42A98A61E0016244F /* iOS17-UIDocumentViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C5F29AD2A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5F29BE2A98A61E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIDocumentViewControllerUITests" */;
+			buildPhases = (
+				3C5F29AA2A98A61E0016244F /* Sources */,
+				3C5F29AB2A98A61E0016244F /* Frameworks */,
+				3C5F29AC2A98A61E0016244F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5F29B02A98A61E0016244F /* PBXTargetDependency */,
+			);
+			name = "iOS17-UIDocumentViewControllerUITests";
+			productName = "iOS17-UIDocumentViewControllerUITests";
+			productReference = 3C5F29AE2A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5F29862A98A61C0016244F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C5F298D2A98A61C0016244F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C5F29A32A98A61E0016244F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C5F298D2A98A61C0016244F;
+					};
+					3C5F29AD2A98A61E0016244F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C5F298D2A98A61C0016244F;
+					};
+				};
+			};
+			buildConfigurationList = 3C5F29892A98A61C0016244F /* Build configuration list for PBXProject "iOS17-UIDocumentViewController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5F29852A98A61C0016244F;
+			productRefGroup = 3C5F298F2A98A61C0016244F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5F298D2A98A61C0016244F /* iOS17-UIDocumentViewController */,
+				3C5F29A32A98A61E0016244F /* iOS17-UIDocumentViewControllerTests */,
+				3C5F29AD2A98A61E0016244F /* iOS17-UIDocumentViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5F298C2A98A61C0016244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F299E2A98A61E0016244F /* LaunchScreen.storyboard in Resources */,
+				3C5F299B2A98A61E0016244F /* Assets.xcassets in Resources */,
+				3C5F29992A98A61C0016244F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29A22A98A61E0016244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29AC2A98A61E0016244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5F298A2A98A61C0016244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29962A98A61C0016244F /* ViewController.swift in Sources */,
+				3C5F29922A98A61C0016244F /* AppDelegate.swift in Sources */,
+				3C5F29942A98A61C0016244F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29A02A98A61E0016244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29A92A98A61E0016244F /* iOS17_UIDocumentViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29AA2A98A61E0016244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29B52A98A61E0016244F /* iOS17_UIDocumentViewControllerUITestsLaunchTests.swift in Sources */,
+				3C5F29B32A98A61E0016244F /* iOS17_UIDocumentViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5F29A62A98A61E0016244F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5F298D2A98A61C0016244F /* iOS17-UIDocumentViewController */;
+			targetProxy = 3C5F29A52A98A61E0016244F /* PBXContainerItemProxy */;
+		};
+		3C5F29B02A98A61E0016244F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5F298D2A98A61C0016244F /* iOS17-UIDocumentViewController */;
+			targetProxy = 3C5F29AF2A98A61E0016244F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C5F29972A98A61C0016244F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5F29982A98A61C0016244F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5F299C2A98A61E0016244F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5F299D2A98A61E0016244F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5F29B62A98A61E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C5F29B72A98A61E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5F29B92A98A61E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS17-UIDocumentViewController/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIDocumentViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C5F29BA2A98A61E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS17-UIDocumentViewController/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIDocumentViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C5F29BC2A98A61E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIDocumentViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS17-UIDocumentViewController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS17-UIDocumentViewController";
+			};
+			name = Debug;
+		};
+		3C5F29BD2A98A61E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIDocumentViewControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS17-UIDocumentViewController.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS17-UIDocumentViewController";
+			};
+			name = Release;
+		};
+		3C5F29BF2A98A61E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIDocumentViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS17-UIDocumentViewController";
+			};
+			name = Debug;
+		};
+		3C5F29C02A98A61E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIDocumentViewControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS17-UIDocumentViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5F29892A98A61C0016244F /* Build configuration list for PBXProject "iOS17-UIDocumentViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29B62A98A61E0016244F /* Debug */,
+				3C5F29B72A98A61E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5F29B82A98A61E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIDocumentViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29B92A98A61E0016244F /* Debug */,
+				3C5F29BA2A98A61E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5F29BB2A98A61E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIDocumentViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29BC2A98A61E0016244F /* Debug */,
+				3C5F29BD2A98A61E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5F29BE2A98A61E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIDocumentViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29BF2A98A61E0016244F /* Debug */,
+				3C5F29C02A98A61E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5F29862A98A61C0016244F /* Project object */;
+}
