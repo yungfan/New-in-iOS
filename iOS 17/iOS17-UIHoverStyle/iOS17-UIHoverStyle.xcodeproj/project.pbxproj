@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5F29CE2A98A65C0016244F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29CD2A98A65C0016244F /* AppDelegate.swift */; };
+		3C5F29D02A98A65C0016244F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29CF2A98A65C0016244F /* SceneDelegate.swift */; };
+		3C5F29D22A98A65C0016244F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29D12A98A65C0016244F /* ViewController.swift */; };
+		3C5F29D52A98A65C0016244F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F29D32A98A65C0016244F /* Main.storyboard */; };
+		3C5F29D72A98A65D0016244F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F29D62A98A65D0016244F /* Assets.xcassets */; };
+		3C5F29DA2A98A65D0016244F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F29D82A98A65D0016244F /* LaunchScreen.storyboard */; };
+		3C5F29E52A98A65E0016244F /* iOS17_UIHoverStyleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29E42A98A65E0016244F /* iOS17_UIHoverStyleTests.swift */; };
+		3C5F29EF2A98A65E0016244F /* iOS17_UIHoverStyleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29EE2A98A65E0016244F /* iOS17_UIHoverStyleUITests.swift */; };
+		3C5F29F12A98A65E0016244F /* iOS17_UIHoverStyleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F29F02A98A65E0016244F /* iOS17_UIHoverStyleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5F29E12A98A65E0016244F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5F29C22A98A65C0016244F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5F29C92A98A65C0016244F;
+			remoteInfo = "iOS17-UIHoverStyle";
+		};
+		3C5F29EB2A98A65E0016244F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5F29C22A98A65C0016244F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5F29C92A98A65C0016244F;
+			remoteInfo = "iOS17-UIHoverStyle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5F29CA2A98A65C0016244F /* iOS17-UIHoverStyle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS17-UIHoverStyle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F29CD2A98A65C0016244F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C5F29CF2A98A65C0016244F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C5F29D12A98A65C0016244F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C5F29D42A98A65C0016244F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5F29D62A98A65D0016244F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C5F29D92A98A65D0016244F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C5F29DB2A98A65E0016244F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5F29E02A98A65E0016244F /* iOS17-UIHoverStyleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS17-UIHoverStyleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F29E42A98A65E0016244F /* iOS17_UIHoverStyleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_UIHoverStyleTests.swift; sourceTree = "<group>"; };
+		3C5F29EA2A98A65E0016244F /* iOS17-UIHoverStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS17-UIHoverStyleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F29EE2A98A65E0016244F /* iOS17_UIHoverStyleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_UIHoverStyleUITests.swift; sourceTree = "<group>"; };
+		3C5F29F02A98A65E0016244F /* iOS17_UIHoverStyleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS17_UIHoverStyleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5F29C72A98A65C0016244F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29DD2A98A65E0016244F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29E72A98A65E0016244F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5F29C12A98A65C0016244F = {
+			isa = PBXGroup;
+			children = (
+				3C5F29CC2A98A65C0016244F /* iOS17-UIHoverStyle */,
+				3C5F29E32A98A65E0016244F /* iOS17-UIHoverStyleTests */,
+				3C5F29ED2A98A65E0016244F /* iOS17-UIHoverStyleUITests */,
+				3C5F29CB2A98A65C0016244F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5F29CB2A98A65C0016244F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29CA2A98A65C0016244F /* iOS17-UIHoverStyle.app */,
+				3C5F29E02A98A65E0016244F /* iOS17-UIHoverStyleTests.xctest */,
+				3C5F29EA2A98A65E0016244F /* iOS17-UIHoverStyleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5F29CC2A98A65C0016244F /* iOS17-UIHoverStyle */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29CD2A98A65C0016244F /* AppDelegate.swift */,
+				3C5F29CF2A98A65C0016244F /* SceneDelegate.swift */,
+				3C5F29D12A98A65C0016244F /* ViewController.swift */,
+				3C5F29D32A98A65C0016244F /* Main.storyboard */,
+				3C5F29D62A98A65D0016244F /* Assets.xcassets */,
+				3C5F29D82A98A65D0016244F /* LaunchScreen.storyboard */,
+				3C5F29DB2A98A65E0016244F /* Info.plist */,
+			);
+			path = "iOS17-UIHoverStyle";
+			sourceTree = "<group>";
+		};
+		3C5F29E32A98A65E0016244F /* iOS17-UIHoverStyleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29E42A98A65E0016244F /* iOS17_UIHoverStyleTests.swift */,
+			);
+			path = "iOS17-UIHoverStyleTests";
+			sourceTree = "<group>";
+		};
+		3C5F29ED2A98A65E0016244F /* iOS17-UIHoverStyleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F29EE2A98A65E0016244F /* iOS17_UIHoverStyleUITests.swift */,
+				3C5F29F02A98A65E0016244F /* iOS17_UIHoverStyleUITestsLaunchTests.swift */,
+			);
+			path = "iOS17-UIHoverStyleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5F29C92A98A65C0016244F /* iOS17-UIHoverStyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5F29F42A98A65E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIHoverStyle" */;
+			buildPhases = (
+				3C5F29C62A98A65C0016244F /* Sources */,
+				3C5F29C72A98A65C0016244F /* Frameworks */,
+				3C5F29C82A98A65C0016244F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS17-UIHoverStyle";
+			productName = "iOS17-UIHoverStyle";
+			productReference = 3C5F29CA2A98A65C0016244F /* iOS17-UIHoverStyle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5F29DF2A98A65E0016244F /* iOS17-UIHoverStyleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5F29F72A98A65E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIHoverStyleTests" */;
+			buildPhases = (
+				3C5F29DC2A98A65E0016244F /* Sources */,
+				3C5F29DD2A98A65E0016244F /* Frameworks */,
+				3C5F29DE2A98A65E0016244F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5F29E22A98A65E0016244F /* PBXTargetDependency */,
+			);
+			name = "iOS17-UIHoverStyleTests";
+			productName = "iOS17-UIHoverStyleTests";
+			productReference = 3C5F29E02A98A65E0016244F /* iOS17-UIHoverStyleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C5F29E92A98A65E0016244F /* iOS17-UIHoverStyleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5F29FA2A98A65E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIHoverStyleUITests" */;
+			buildPhases = (
+				3C5F29E62A98A65E0016244F /* Sources */,
+				3C5F29E72A98A65E0016244F /* Frameworks */,
+				3C5F29E82A98A65E0016244F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5F29EC2A98A65E0016244F /* PBXTargetDependency */,
+			);
+			name = "iOS17-UIHoverStyleUITests";
+			productName = "iOS17-UIHoverStyleUITests";
+			productReference = 3C5F29EA2A98A65E0016244F /* iOS17-UIHoverStyleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5F29C22A98A65C0016244F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3C5F29C92A98A65C0016244F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3C5F29DF2A98A65E0016244F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C5F29C92A98A65C0016244F;
+					};
+					3C5F29E92A98A65E0016244F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3C5F29C92A98A65C0016244F;
+					};
+				};
+			};
+			buildConfigurationList = 3C5F29C52A98A65C0016244F /* Build configuration list for PBXProject "iOS17-UIHoverStyle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5F29C12A98A65C0016244F;
+			productRefGroup = 3C5F29CB2A98A65C0016244F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5F29C92A98A65C0016244F /* iOS17-UIHoverStyle */,
+				3C5F29DF2A98A65E0016244F /* iOS17-UIHoverStyleTests */,
+				3C5F29E92A98A65E0016244F /* iOS17-UIHoverStyleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5F29C82A98A65C0016244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29DA2A98A65D0016244F /* LaunchScreen.storyboard in Resources */,
+				3C5F29D72A98A65D0016244F /* Assets.xcassets in Resources */,
+				3C5F29D52A98A65C0016244F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29DE2A98A65E0016244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29E82A98A65E0016244F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5F29C62A98A65C0016244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29D22A98A65C0016244F /* ViewController.swift in Sources */,
+				3C5F29CE2A98A65C0016244F /* AppDelegate.swift in Sources */,
+				3C5F29D02A98A65C0016244F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29DC2A98A65E0016244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29E52A98A65E0016244F /* iOS17_UIHoverStyleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5F29E62A98A65E0016244F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5F29EF2A98A65E0016244F /* iOS17_UIHoverStyleUITests.swift in Sources */,
+				3C5F29F12A98A65E0016244F /* iOS17_UIHoverStyleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5F29E22A98A65E0016244F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5F29C92A98A65C0016244F /* iOS17-UIHoverStyle */;
+			targetProxy = 3C5F29E12A98A65E0016244F /* PBXContainerItemProxy */;
+		};
+		3C5F29EC2A98A65E0016244F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5F29C92A98A65C0016244F /* iOS17-UIHoverStyle */;
+			targetProxy = 3C5F29EB2A98A65E0016244F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C5F29D32A98A65C0016244F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5F29D42A98A65C0016244F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5F29D82A98A65D0016244F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5F29D92A98A65D0016244F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5F29F22A98A65E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C5F29F32A98A65E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5F29F52A98A65E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS17-UIHoverStyle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIHoverStyle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C5F29F62A98A65E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS17-UIHoverStyle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIHoverStyle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C5F29F82A98A65E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIHoverStyleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS17-UIHoverStyle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS17-UIHoverStyle";
+			};
+			name = Debug;
+		};
+		3C5F29F92A98A65E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIHoverStyleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS17-UIHoverStyle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS17-UIHoverStyle";
+			};
+			name = Release;
+		};
+		3C5F29FB2A98A65E0016244F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIHoverStyleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS17-UIHoverStyle";
+			};
+			name = Debug;
+		};
+		3C5F29FC2A98A65E0016244F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yf.developer.iOS17-UIHoverStyleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS17-UIHoverStyle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5F29C52A98A65C0016244F /* Build configuration list for PBXProject "iOS17-UIHoverStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29F22A98A65E0016244F /* Debug */,
+				3C5F29F32A98A65E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5F29F42A98A65E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIHoverStyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29F52A98A65E0016244F /* Debug */,
+				3C5F29F62A98A65E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5F29F72A98A65E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIHoverStyleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29F82A98A65E0016244F /* Debug */,
+				3C5F29F92A98A65E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5F29FA2A98A65E0016244F /* Build configuration list for PBXNativeTarget "iOS17-UIHoverStyleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5F29FB2A98A65E0016244F /* Debug */,
+				3C5F29FC2A98A65E0016244F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5F29C22A98A65C0016244F /* Project object */;
+}
