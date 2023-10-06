@@ -16,7 +16,7 @@ class DataTools {
 
     init() {
         do {
-            container = try ModelContainer(for: [User.self, Company.self])
+            container = try ModelContainer(for: User.self)
             if let container {
                 context = ModelContext(container)
             }
@@ -27,12 +27,12 @@ class DataTools {
 
     // MARK: 增加
     func insert(user: User) {
-        context?.insert(object: user)
+        context?.insert(user)
     }
 
     // MARK: 删除
     func delete(user: User) {
-        context?.delete(object: user)
+        context?.delete(user)
     }
 
     // MARK: 修改
