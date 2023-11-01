@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Size_Classes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R1L-dc-bSY">
+                                <rect key="frame" x="16" y="75" width="361" height="128"/>
+                                <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="FN6-7X-b7b"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zxp-gI-Ybn">
+                                <rect key="frame" x="16" y="233" width="361" height="128"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="5Vh-sF-0af"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zxp-gI-Ybn" firstAttribute="width" secondItem="R1L-dc-bSY" secondAttribute="width" id="KAI-46-r1x"/>
+                            <constraint firstItem="Zxp-gI-Ybn" firstAttribute="leading" secondItem="R1L-dc-bSY" secondAttribute="trailing" constant="28" id="KIu-lb-8Lg"/>
+                            <constraint firstItem="R1L-dc-bSY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="LBP-3O-pSJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zxp-gI-Ybn" secondAttribute="trailing" constant="20" id="QVJ-Wv-wzA"/>
+                            <constraint firstItem="Zxp-gI-Ybn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="U19-aY-2WZ"/>
+                            <constraint firstItem="Zxp-gI-Ybn" firstAttribute="top" secondItem="R1L-dc-bSY" secondAttribute="bottom" constant="30" id="a9E-Zp-qHb"/>
+                            <constraint firstItem="R1L-dc-bSY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="eB1-E1-0yW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R1L-dc-bSY" secondAttribute="trailing" constant="16" id="f9t-fm-4k5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zxp-gI-Ybn" secondAttribute="trailing" constant="16" id="ga2-ay-eGM"/>
+                            <constraint firstItem="Zxp-gI-Ybn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ngR-oY-B13"/>
+                            <constraint firstItem="R1L-dc-bSY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="xJL-cb-wBK"/>
+                            <constraint firstItem="R1L-dc-bSY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zxW-4q-Hxk"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="QVJ-Wv-wzA"/>
+                                <exclude reference="ga2-ay-eGM"/>
+                                <exclude reference="f9t-fm-4k5"/>
+                                <exclude reference="LBP-3O-pSJ"/>
+                                <exclude reference="zxW-4q-Hxk"/>
+                                <exclude reference="eB1-E1-0yW"/>
+                                <exclude reference="xJL-cb-wBK"/>
+                                <exclude reference="KIu-lb-8Lg"/>
+                                <exclude reference="U19-aY-2WZ"/>
+                                <exclude reference="a9E-Zp-qHb"/>
+                                <exclude reference="ngR-oY-B13"/>
+                                <exclude reference="KAI-46-r1x"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="QVJ-Wv-wzA"/>
+                                <include reference="LBP-3O-pSJ"/>
+                                <include reference="xJL-cb-wBK"/>
+                                <include reference="KIu-lb-8Lg"/>
+                                <include reference="ngR-oY-B13"/>
+                                <include reference="KAI-46-r1x"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="ga2-ay-eGM"/>
+                                <include reference="f9t-fm-4k5"/>
+                                <include reference="zxW-4q-Hxk"/>
+                                <include reference="eB1-E1-0yW"/>
+                                <include reference="U19-aY-2WZ"/>
+                                <include reference="a9E-Zp-qHb"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1.4084507042253522" y="20.610687022900763"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
