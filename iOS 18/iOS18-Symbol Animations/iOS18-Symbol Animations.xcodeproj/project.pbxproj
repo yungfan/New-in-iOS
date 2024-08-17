@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3CC575D62C70BA63006280EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC575B72C70BA63006280EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC575BE2C70BA63006280EC;
+			remoteInfo = "iOS18-Symbol Animations";
+		};
+		3CC575E02C70BA63006280EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CC575B72C70BA63006280EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CC575BE2C70BA63006280EC;
+			remoteInfo = "iOS18-Symbol Animations";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CC575BF2C70BA63006280EC /* iOS18-Symbol Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS18-Symbol Animations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC575D52C70BA63006280EC /* iOS18-Symbol AnimationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS18-Symbol AnimationsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CC575DF2C70BA63006280EC /* iOS18-Symbol AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS18-Symbol AnimationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3CC575E72C70BA63006280EC /* Exceptions for "iOS18-Symbol Animations" folder in "iOS18-Symbol Animations" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: LaunchScreen.storyboard",
+				"/Localized: Main.storyboard",
+				Info.plist,
+			);
+			target = 3CC575BE2C70BA63006280EC /* iOS18-Symbol Animations */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		3CC575EB2C70BA63006280EC /* Exceptions for "iOS18-Symbol Animations" folder in "Copy Bundle Resources" phase from "iOS18-Symbol Animations" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 3CC575BD2C70BA63006280EC /* Resources */;
+			membershipExceptions = (
+				Base.lproj/LaunchScreen.storyboard,
+				Base.lproj/Main.storyboard,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3CC575C12C70BA63006280EC /* iOS18-Symbol Animations */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3CC575E72C70BA63006280EC /* Exceptions for "iOS18-Symbol Animations" folder in "iOS18-Symbol Animations" target */,
+				3CC575EB2C70BA63006280EC /* Exceptions for "iOS18-Symbol Animations" folder in "Copy Bundle Resources" phase from "iOS18-Symbol Animations" target */,
+			);
+			path = "iOS18-Symbol Animations";
+			sourceTree = "<group>";
+		};
+		3CC575D82C70BA63006280EC /* iOS18-Symbol AnimationsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS18-Symbol AnimationsTests";
+			sourceTree = "<group>";
+		};
+		3CC575E22C70BA63006280EC /* iOS18-Symbol AnimationsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS18-Symbol AnimationsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CC575BC2C70BA63006280EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC575D22C70BA63006280EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC575DC2C70BA63006280EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CC575B62C70BA63006280EC = {
+			isa = PBXGroup;
+			children = (
+				3CC575C12C70BA63006280EC /* iOS18-Symbol Animations */,
+				3CC575D82C70BA63006280EC /* iOS18-Symbol AnimationsTests */,
+				3CC575E22C70BA63006280EC /* iOS18-Symbol AnimationsUITests */,
+				3CC575C02C70BA63006280EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CC575C02C70BA63006280EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CC575BF2C70BA63006280EC /* iOS18-Symbol Animations.app */,
+				3CC575D52C70BA63006280EC /* iOS18-Symbol AnimationsTests.xctest */,
+				3CC575DF2C70BA63006280EC /* iOS18-Symbol AnimationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CC575BE2C70BA63006280EC /* iOS18-Symbol Animations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC575E82C70BA63006280EC /* Build configuration list for PBXNativeTarget "iOS18-Symbol Animations" */;
+			buildPhases = (
+				3CC575BB2C70BA63006280EC /* Sources */,
+				3CC575BC2C70BA63006280EC /* Frameworks */,
+				3CC575BD2C70BA63006280EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3CC575C12C70BA63006280EC /* iOS18-Symbol Animations */,
+			);
+			name = "iOS18-Symbol Animations";
+			packageProductDependencies = (
+			);
+			productName = "iOS18-Symbol Animations";
+			productReference = 3CC575BF2C70BA63006280EC /* iOS18-Symbol Animations.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CC575D42C70BA63006280EC /* iOS18-Symbol AnimationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC575EE2C70BA63006280EC /* Build configuration list for PBXNativeTarget "iOS18-Symbol AnimationsTests" */;
+			buildPhases = (
+				3CC575D12C70BA63006280EC /* Sources */,
+				3CC575D22C70BA63006280EC /* Frameworks */,
+				3CC575D32C70BA63006280EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC575D72C70BA63006280EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3CC575D82C70BA63006280EC /* iOS18-Symbol AnimationsTests */,
+			);
+			name = "iOS18-Symbol AnimationsTests";
+			packageProductDependencies = (
+			);
+			productName = "iOS18-Symbol AnimationsTests";
+			productReference = 3CC575D52C70BA63006280EC /* iOS18-Symbol AnimationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CC575DE2C70BA63006280EC /* iOS18-Symbol AnimationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC575F12C70BA63006280EC /* Build configuration list for PBXNativeTarget "iOS18-Symbol AnimationsUITests" */;
+			buildPhases = (
+				3CC575DB2C70BA63006280EC /* Sources */,
+				3CC575DC2C70BA63006280EC /* Frameworks */,
+				3CC575DD2C70BA63006280EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CC575E12C70BA63006280EC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3CC575E22C70BA63006280EC /* iOS18-Symbol AnimationsUITests */,
+			);
+			name = "iOS18-Symbol AnimationsUITests";
+			packageProductDependencies = (
+			);
+			productName = "iOS18-Symbol AnimationsUITests";
+			productReference = 3CC575DF2C70BA63006280EC /* iOS18-Symbol AnimationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CC575B72C70BA63006280EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					3CC575BE2C70BA63006280EC = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					3CC575D42C70BA63006280EC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3CC575BE2C70BA63006280EC;
+					};
+					3CC575DE2C70BA63006280EC = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 3CC575BE2C70BA63006280EC;
+					};
+				};
+			};
+			buildConfigurationList = 3CC575BA2C70BA63006280EC /* Build configuration list for PBXProject "iOS18-Symbol Animations" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CC575B62C70BA63006280EC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3CC575C02C70BA63006280EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CC575BE2C70BA63006280EC /* iOS18-Symbol Animations */,
+				3CC575D42C70BA63006280EC /* iOS18-Symbol AnimationsTests */,
+				3CC575DE2C70BA63006280EC /* iOS18-Symbol AnimationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CC575BD2C70BA63006280EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC575D32C70BA63006280EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC575DD2C70BA63006280EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CC575BB2C70BA63006280EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC575D12C70BA63006280EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CC575DB2C70BA63006280EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CC575D72C70BA63006280EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC575BE2C70BA63006280EC /* iOS18-Symbol Animations */;
+			targetProxy = 3CC575D62C70BA63006280EC /* PBXContainerItemProxy */;
+		};
+		3CC575E12C70BA63006280EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CC575BE2C70BA63006280EC /* iOS18-Symbol Animations */;
+			targetProxy = 3CC575E02C70BA63006280EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CC575E92C70BA63006280EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS18-Symbol Animations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yf.abc.iOS18-Symbol-Animations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CC575EA2C70BA63006280EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS18-Symbol Animations/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yf.abc.iOS18-Symbol-Animations";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CC575EC2C70BA63006280EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CC575ED2C70BA63006280EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CC575EF2C70BA63006280EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yf.abc.iOS18-Symbol-AnimationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS18-Symbol Animations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS18-Symbol Animations";
+			};
+			name = Debug;
+		};
+		3CC575F02C70BA63006280EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yf.abc.iOS18-Symbol-AnimationsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS18-Symbol Animations.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS18-Symbol Animations";
+			};
+			name = Release;
+		};
+		3CC575F22C70BA63006280EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yf.abc.iOS18-Symbol-AnimationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS18-Symbol Animations";
+			};
+			name = Debug;
+		};
+		3CC575F32C70BA63006280EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yf.abc.iOS18-Symbol-AnimationsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS18-Symbol Animations";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CC575BA2C70BA63006280EC /* Build configuration list for PBXProject "iOS18-Symbol Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC575EC2C70BA63006280EC /* Debug */,
+				3CC575ED2C70BA63006280EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC575E82C70BA63006280EC /* Build configuration list for PBXNativeTarget "iOS18-Symbol Animations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC575E92C70BA63006280EC /* Debug */,
+				3CC575EA2C70BA63006280EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC575EE2C70BA63006280EC /* Build configuration list for PBXNativeTarget "iOS18-Symbol AnimationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC575EF2C70BA63006280EC /* Debug */,
+				3CC575F02C70BA63006280EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC575F12C70BA63006280EC /* Build configuration list for PBXNativeTarget "iOS18-Symbol AnimationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CC575F22C70BA63006280EC /* Debug */,
+				3CC575F32C70BA63006280EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CC575B72C70BA63006280EC /* Project object */;
+}
