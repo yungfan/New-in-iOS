@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         canvasView.becomeFirstResponder()
     }
 
-    // MARK: 保存绘画内容到相册
+    // MARK: 保存绘画内容到相册，需要添加相册权限
     func saveDrawing() {
         let drawing = canvasView.drawing
         let image = drawing.image(from: canvasView.frame, scale: UIScreen.main.scale)
