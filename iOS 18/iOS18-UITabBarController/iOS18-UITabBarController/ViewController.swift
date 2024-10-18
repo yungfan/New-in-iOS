@@ -14,5 +14,11 @@ class ViewController: UIViewController {
         // iOS18新增，获取sidebar
         let sidebar = tabBarController?.sidebar
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        navigationController?.pushViewController(NextviewController(), animated: true)
+    }
 }
+
+
 

@@ -20,6 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         tabBarController.mode = .tabSidebar
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
+        
+       
     }
 
 
